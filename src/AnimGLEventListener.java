@@ -96,7 +96,7 @@ public class AnimGLEventListener extends AnimListener implements GLEventListener
         }
         
         try {
-            FileInputStream music = new FileInputStream(new File("OpeningWindow.wav"));
+            FileInputStream music = new FileInputStream(new File("Medley1.wav"));
             AudioStream audios = new AudioStream(music);
             AudioPlayer.player.start(audios);
         } catch (Exception e) {
